@@ -350,7 +350,7 @@ void userInput(int choice)
     printf("\nASCII values of the word '%s':\n", word);
     for (int i = 0; word[i] != '\0'; i++) {
         conversion_Title();
-                 printf("%c: %d\n", word[i], word[i]);
+                 printf("%c: %d", word[i], word[i]);
                 decimal_binary(word[i]);
                 decimal_octal(word[i]);
                 decimal_hexadecimal(word[i]);
